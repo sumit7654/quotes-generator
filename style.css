@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Philosopher:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    user-select: none;
+    /* background-color: black; */
+}
+
+h2 {
+    text-align: center;
+    background-image: linear-gradient(90deg, red, yellow, rgb(0, 255, 94));
+    padding: 20px;
+    margin: 20px 6vw;
+    border-radius: 50%;
+    font-size: 4em;
+}
+
+.container {
+    height: 60vh;
+    background-color: rgb(228, 236, 215);
+    width: 90vw;
+    border-radius: 10px;
+    margin: 20px auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: -10px 10px 15px rgba(83, 83, 83, 0.237);
+}
+
+.container p {
+    margin: 40px;
+    font-size: 3em;
+    color: rgb(0, 0, 0);
+    font-family: "Philosopher", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: 2px;
+}
+
+.generate-btn {
+    display: flex;
+    justify-content: center;
+}
+
+.btn {
+    background-color: rgb(165, 4, 146);
+    font-size: 3em;
+    padding: 10px 20px;
+    color: rgb(252, 252, 252);
+    border-radius: 50px;
+    border: none;
+    cursor: pointer;
+}
+.btn:hover{
+    background-color: rgb(105, 20, 154);
+}
+@media only screen and (max-width:450px){
+    .container p {
+        font-size: 2em;
+    }
+    h2{
+        font-size: 3em;
+    }
+}
